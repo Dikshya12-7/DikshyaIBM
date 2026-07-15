@@ -1,0 +1,29 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(161, 135, 161);
+    color: azure;
+}
+
+/* Styling Flexbox */
+#flexbox-demo-bg {
+    background-color: rgb(147, 168, 187);
+    color: rgb(201, 191, 178);
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(128, 114, 141);
+}
+
+.flex-item {
+    background-color: rgb(105, 105, 134);
+    width: auto;
+    margin: auto;
+    text-align: center;
+    line-height: normal;
+    font-size: large;
+}
