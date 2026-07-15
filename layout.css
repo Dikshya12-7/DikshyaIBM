@@ -21,9 +21,9 @@ body {
 
 .flex-item {
     background-color: rgb(105, 105, 134);
-    width: auto;
-    margin: auto;
+    width: 75px;
+    margin: 20px;
     text-align: center;
-    line-height: normal;
-    font-size: large;
+    line-height: 75px;
+    font-size: 30px;
 }
