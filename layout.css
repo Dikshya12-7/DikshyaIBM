@@ -3,14 +3,14 @@
 }
 
 body {
-    background-color: rgb(30, 146, 161);
+    background-color: rgb(89, 193, 207);
     color: rgb(247, 126, 176);
 }
 
 /* Styling Flexbox */
 #flexbox-demo-bg {
     background-color: rgb(8, 124, 226);
-    color: rgb(12, 201, 191);
+    color: rgb(196, 6, 101);
 }
 
 .flex-container {
