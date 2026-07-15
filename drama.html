@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #111;
+            margin-bottom: 5px;
+        }
+
+        .intro {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .poster-container {
+            margin-bottom: 30px;
+        }
+
+        .poster-container img {
+            max-width: 300px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-container {
+            width: 100%;
+            max-width: 1000px;
+            overflow-x: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My favourite drama.</h1>
+    
+    <div class="intro">
+        <p>I love watching dramas alot.</p>
+        <p><strong>My favourite drama is Section:E</strong></p>
+        <p>It's a great drama with amazing acting.</p>
+    </div>
+
+    <div class="poster-container">
+        <!-- Replace the src URL below with your actual image path if needed -->
+        <img src="poster.jpg" alt="Ang Mutya Ng Section E Series Review">
+    </div>
+
+    <div class="table-container">
+        <h2>About it</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>also known as</th>
+                    <th>nationality</th>
+                    <th>language</th>
+                    <th>genre</th>
+                    <th>written by</th>
+                    <th>directed by</th>
+                    <th>Starring</th>
+                    <th>first season data</th>
+                    <th>second season data</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>The Jewel of Section E</td>
+                    <td>Philippine</td>
+                    <td>Filipino</td>
+                    <td>Romantic comedy teen drama coming-of-age</td>
+                    <td>Juvy Galamiton<br>Anjanette Haw<br>Kim Noromor</td>
+                    <td>Theodore Boborol (Season 1)<br>Petersen Vargas (Season 2)</td>
+                    <td>Ashtine Olviga<br>Andres Muhlach<br>Rabin Angeles</td>
+                    <td>January 3, 2025</td>
+                    <td>December 4, 2025</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
