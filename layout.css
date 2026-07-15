@@ -4,7 +4,7 @@
 
 body {
     background-color: rgb(30, 146, 161);
-    color: rgb(113, 80, 119);
+    color: rgb(247, 126, 176);
 }
 
 /* Styling Flexbox */
@@ -16,11 +16,11 @@ body {
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgb(188, 144, 231);
+    background-color: rgb(194, 149, 240);
 }
 
 .flex-item {
-    background-color: rgb(85, 85, 99);
+    background-color: rgb(238, 94, 190);
     width: 75px;
     margin: 20px;
     text-align: center;
