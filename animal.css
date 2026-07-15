@@ -15,7 +15,7 @@ body {
 header {
     background: linear-gradient(rgba(170, 112, 112, 0.6), rgba(50, 69, 90, 0.918)), 
                 url('https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;
-    color: rgb(133, 162, 226);
+    color: rgb(77, 83, 97);
     text-align: center;
     padding: 60px 20px;
 }
