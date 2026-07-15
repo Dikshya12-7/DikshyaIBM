@@ -3,20 +3,20 @@
 }
 
 body {
-    background-color: rgb(8, 213, 240);
+    background-color: rgb(30, 146, 161);
     color: rgb(113, 80, 119);
 }
 
 /* Styling Flexbox */
 #flexbox-demo-bg {
-    background-color: rgb(43, 51, 58);
-    color: rgb(58, 102, 100);
+    background-color: rgb(8, 124, 226);
+    color: rgb(12, 201, 191);
 }
 
 .flex-container {
     display: flex;
     flex-wrap: nowrap;
-    background-color: rgb(75, 67, 83);
+    background-color: rgb(188, 144, 231);
 }
 
 .flex-item {
