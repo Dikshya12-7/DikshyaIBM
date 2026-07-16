@@ -1,0 +1,11 @@
+header {
+  background: linear-gradient(135deg, #8fc9eb, #85b5e2); /* Warm sunset gradient */
+  color: white;
+  text-align: center;
+  padding: 3rem 0;
+  border-bottom: 3px solid #fbbf24; /* Gold accent */
+}
+body {
+    background-color: rgb(163, 225, 250);
+    color: rgb(33, 68, 224);
+}

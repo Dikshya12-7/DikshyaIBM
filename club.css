@@ -1,0 +1,144 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0f19;
+    color: #f3f4f6;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    padding: 3.5rem 0;
+    text-align: center;
+    border-bottom: 3px solid #fbbf24; /* Gold accent */
+}
+
+header h1 {
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    font-weight: 800;
+}
+
+header .subtitle {
+    font-size: 1.15rem;
+    color: #94a3b8;
+    font-weight: 300;
+}
+
+/* Main Content styling */
+main {
+    padding: 4rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #fbbf24; /* Gold heading */
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+/* Timeline Layout */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.timeline-card {
+    background-color: #1e293b;
+    border-radius: 10px;
+    border: 1px solid #334155;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-card:hover {
+    transform: translateY(-4px);
+    border-color: #fbbf24;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Card Header */
+.card-header {
+    background-color: #111827;
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1f2937;
+}
+
+.card-header h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.years {
+    background-color: #fbbf24;
+    color: #0b0f19;
+    padding: 0.35rem 1rem;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+/* Card Body */
+.card-body {
+    padding: 2rem;
+}
+
+.role {
+    font-size: 1.1rem;
+    color: #38bdf8; /* Light blue accent for role */
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.card-body p {
+    color: #cbd5e1;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2.5rem 0;
+    background-color: #0f172a;
+    color: #64748b;
+    font-size: 0.85rem;
+    border-top: 1px solid #1e293b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+    
+    .card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    
+    .card-body {
+        padding: 1.5rem;
+    }
+}
