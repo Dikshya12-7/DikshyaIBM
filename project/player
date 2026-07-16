@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en"
+
+   <head>
+    <meta charset="utf-8">
+    <title>My favourite player</title>
+    <link rel="stylesheet" href="player.css" />
+</head>
+
+<body>
+    <header>
+       <h1>my favourite player is Lionel Messi</h1>
+    </header>
+     <head>
+        <title>Flexbox Example</title>
+        <link rel="stylesheet" href="layout.css" />
+    </head>  
+    <body id="flexbox-demo-bg"
+    <div class="flex-container">
+        <div class="flex-item">M</div>
+        <div class="flex-item">E</div>
+        <div class="flex-item">S</div>
+        <div class="flex-item">S</div>
+        <div class="flex-item">I</div>
+    </div>
+</body>
+</html>
+
+
+
+   
