@@ -1,11 +1,66 @@
 header {
-  background: linear-gradient(135deg, #8fc9eb, #85b5e2); /* Warm sunset gradient */
+  background: linear-gradient(135deg, #3326f1, #85b5e2); 
   color: white;
   text-align: center;
   padding: 3rem 0;
-  border-bottom: 3px solid #fbbf24; /* Gold accent */
+  border-bottom: 3px solid #fbbf24; 
+  font-size: 40px;
 }
 body {
-    background-color: rgb(163, 225, 250);
-    color: rgb(33, 68, 224);
+    background-color: rgb(169, 188, 240);
+    color: rgb(27, 11, 119);
+    font-size: 35px;
+}
+nav {
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px;
+  justify-content: space-between;
+  top: 0;
+  border-bottom: 3px solid #fbbf24;
+  font-size: 25px;
+  
+}
+.cards {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:left;
+  padding: 20px;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+.cards img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  margin: 10px;
+  border-radius: 20px;
+}
+h4{
+  margin:0;
+}
+form {
+    width:60%;
+    margin:40px auto;
+}
+form input,
+form textarea {
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:1px solid #d3b5ff;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+}
+form button {
+    background:#5b38f5;
+    color:rgb(247, 244, 244);
+    border:none;
+    padding:12px 25px;
+    border-radius:25px;
+    font-size:16px;
+    cursor:pointer;
 }
